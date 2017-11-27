@@ -9,8 +9,8 @@
 #
 ########################################################################
 
-print('Hello, World')
-print('hi there')
-print('one', 'two', 'buckle my shoe')
-print(3 + 9)
-print('3 + 9', 'versus', 3 + 9)
+print('Hello, Caitlin')
+print('testing')
+print('CSSE120')
+print(10 + 5)
+print('10 + 5', 'versus', 10 + 5)
