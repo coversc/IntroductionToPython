@@ -10,11 +10,11 @@ Also:
   -- ASSIGNING a VALUE to a NAME (VARIABLE).
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Caitlin Coverstone.
 """
 ########################################################################
 #
-# TODO: 1.
+# DONE: 1.
 #  (Yes, that means for YOU to DO things per these instructions:)
 #
 # On Line 13 above, replace  PUT_YOUR_OWN_NAME_HERE  with your OWN name.
@@ -29,7 +29,7 @@ import rosegraphics as rg
 
 ########################################################################
 #
-# TODO: 2.
+# DONE: 2.
 #   Allow this file to use the rosegraphics.py file by marking the src
 #   directory as a "Sources Root".  Do that by right clicking on the src folder,
 #   then selector  Mark Directory As --> Sources Root
@@ -74,10 +74,16 @@ matt.backward(50)
 matt.left(90)
 matt.forward(50)
 
+#code I added
+matt.pen = rg.Pen('blue', 30)
+matt.speed = 30
+matt.backward(70)
+matt.left(20)
+matt.forward(170)
 
 ########################################################################
 #
-# TODO: 3.
+# DONE: 3.
 #   Add a few more line of your own code above to make one of the
 #   existing Turtles move some more and/or have different
 #   characteristics.
@@ -91,7 +97,7 @@ matt.forward(50)
 
 ########################################################################
 #
-# TODO: 4.
+# DONE: 4.
 #   The code above  CONSTRUCTS  two SimpleTurtle objects and gives those objects NAMES:
 #       dave    matt
 #
@@ -110,9 +116,21 @@ matt.forward(50)
 #
 ########################################################################
 
+turtle_1 = rg.SimpleTurtle('turtle')
+turtle_1.pen = rg.Pen('yellow', 30)
+turtle_1.forward(10)
+turtle_1.left(70)
+turtle_1.forward(120)
+
+turtle_2 = rg.SimpleTurtle('turtle')
+turtle_2.pen = rg.Pen('blue', 10)
+turtle_2.forward(80)
+turtle_2.left(100)
+turtle_2.forward(40)
+
 ########################################################################
 #
-# TODO: 5.
+# DONE: 5.
 #   Run one more time to be sure that all is still OK.
 #   Ensure that no blue bars on the scrollbar-thing to the right remain.
 #
