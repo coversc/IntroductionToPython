@@ -45,7 +45,7 @@ for k in range(20):
     # square started.  Do this with the pen up (so nothing is drawn).
     turtle_1.pen_up()
     turtle_1.right(45)
-    turtle_1.forward(10)
+    turtle_1.forward(3)
     turtle_1.left(45)
 
     # Put the pen down again (so drawing resumes).
@@ -55,16 +55,16 @@ for k in range(20):
 
 turtle_2 = rg.SimpleTurtle('turtle')
 turtle_2.pen = rg.Pen('blue', 2)
-turtle_2.speed = 100
+turtle_2.speed = 500
 
 #size = 150
-for k in range(25):
+for k in range(50):
     turtle_2.draw_regular_polygon(8,30)
 
     # Move a little below and to the right of where the previous
     # square started.  Do this with the pen up (so nothing is drawn).
     turtle_2.pen_down()
-    turtle_2.right(45)
+    #turtle_2.right(45)
     turtle_2.forward(10)
     turtle_2.left(45 + k)
 
